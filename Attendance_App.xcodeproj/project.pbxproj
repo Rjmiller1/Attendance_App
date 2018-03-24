@@ -19,6 +19,7 @@
 		50FFC6092066D7AA009C564A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC6082066D7AA009C564A /* HomeViewController.swift */; };
 		50FFC60B2066D7D4009C564A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC60A2066D7D4009C564A /* ViewController.swift */; };
 		50FFC60D2066D95B009C564A /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC60C2066D95B009C564A /* HelperExtensions.swift */; };
+		50FFC60F2066DE0D009C564A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50FFC60E2066DE0C009C564A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		50FFC6082066D7AA009C564A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		50FFC60A2066D7D4009C564A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50FFC60C2066D95B009C564A /* HelperExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		50FFC60E2066DE0C009C564A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				50FFC5F52066D222009C564A /* Assets.xcassets */,
 				50FFC5F72066D222009C564A /* LaunchScreen.storyboard */,
 				50FFC5FA2066D222009C564A /* Info.plist */,
+				50FFC60E2066DE0C009C564A /* GoogleService-Info.plist */,
 			);
 			path = Attendance_App;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FFC5F92066D222009C564A /* LaunchScreen.storyboard in Resources */,
+				50FFC60F2066DE0D009C564A /* GoogleService-Info.plist in Resources */,
 				50FFC5F62066D222009C564A /* Assets.xcassets in Resources */,
 				50FFC5F42066D222009C564A /* Main.storyboard in Resources */,
 			);
