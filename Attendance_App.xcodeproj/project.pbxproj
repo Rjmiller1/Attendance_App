@@ -18,6 +18,7 @@
 		50FFC6072066D76F009C564A /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC6062066D76F009C564A /* RoundedWhiteButton.swift */; };
 		50FFC6092066D7AA009C564A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC6082066D7AA009C564A /* HomeViewController.swift */; };
 		50FFC60B2066D7D4009C564A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC60A2066D7D4009C564A /* ViewController.swift */; };
+		50FFC60D2066D95B009C564A /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC60C2066D95B009C564A /* HelperExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		50FFC6062066D76F009C564A /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
 		50FFC6082066D7AA009C564A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		50FFC60A2066D7D4009C564A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50FFC60C2066D95B009C564A /* HelperExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				50FFC6062066D76F009C564A /* RoundedWhiteButton.swift */,
 				50FFC6082066D7AA009C564A /* HomeViewController.swift */,
 				50FFC60A2066D7D4009C564A /* ViewController.swift */,
+				50FFC60C2066D95B009C564A /* HelperExtensions.swift */,
 				50FFC5F22066D222009C564A /* Main.storyboard */,
 				50FFC5F52066D222009C564A /* Assets.xcassets */,
 				50FFC5F72066D222009C564A /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FFC6012066D567009C564A /* LoginViewController.swift in Sources */,
+				50FFC60D2066D95B009C564A /* HelperExtensions.swift in Sources */,
 				50FFC5F12066D222009C564A /* InitialViewController.swift in Sources */,
 				50FFC5EF2066D222009C564A /* AppDelegate.swift in Sources */,
 				50FFC6032066D639009C564A /* MenuViewController.swift in Sources */,
