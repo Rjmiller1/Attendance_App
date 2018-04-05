@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07C420DE212ECEBA57AA90BE /* Pods_Attendance_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD70F49B2B629B019AA8FCE /* Pods_Attendance_App.framework */; };
+		50128DD52075B67A00490CE6 /* StudentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50128DD42075B67900490CE6 /* StudentHomeViewController.swift */; };
 		50FFC5EF2066D222009C564A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC5EE2066D222009C564A /* AppDelegate.swift */; };
 		50FFC5F12066D222009C564A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFC5F02066D222009C564A /* InitialViewController.swift */; };
 		50FFC5F42066D222009C564A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FFC5F22066D222009C564A /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50128DD42075B67900490CE6 /* StudentHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomeViewController.swift; sourceTree = "<group>"; };
 		50FFC5EB2066D222009C564A /* Attendance_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Attendance_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FFC5EE2066D222009C564A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FFC5F02066D222009C564A /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
@@ -105,8 +107,9 @@
 				50FFC6082066D7AA009C564A /* HomeViewController.swift */,
 				50FFC60A2066D7D4009C564A /* ViewController.swift */,
 				50FFC60C2066D95B009C564A /* HelperExtensions.swift */,
-				50FFC5F22066D222009C564A /* Main.storyboard */,
 				6CBF7F83206B3B0B003A5C74 /* InstructorHomeViewController.swift */,
+				50128DD42075B67900490CE6 /* StudentHomeViewController.swift */,
+				50FFC5F22066D222009C564A /* Main.storyboard */,
 				50FFC5F52066D222009C564A /* Assets.xcassets */,
 				50FFC5F72066D222009C564A /* LaunchScreen.storyboard */,
 				50FFC5FA2066D222009C564A /* Info.plist */,
@@ -193,9 +196,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Attendance_App/Pods-Attendance_App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -243,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50FFC6012066D567009C564A /* LoginViewController.swift in Sources */,
+				50128DD52075B67A00490CE6 /* StudentHomeViewController.swift in Sources */,
 				50FFC60D2066D95B009C564A /* HelperExtensions.swift in Sources */,
 				50FFC5F12066D222009C564A /* InitialViewController.swift in Sources */,
 				50FFC5EF2066D222009C564A /* AppDelegate.swift in Sources */,

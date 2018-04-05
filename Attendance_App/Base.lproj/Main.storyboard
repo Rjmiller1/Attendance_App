@@ -252,20 +252,80 @@
             </objects>
             <point key="canvasLocation" x="3540" y="-238"/>
         </scene>
-        <!--Instructor Home View Controller-->
+        <!--Title-->
         <scene sceneID="PBZ-HI-FO8">
             <objects>
                 <viewController id="0m5-hZ-87x" customClass="InstructorHomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="egZ-G1-528">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcq-Q1-rDf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="lOd-RC-KZh">
+                                        <barButtonItem key="rightBarButtonItem" title="Logout" id="Sdl-AZ-jQW">
+                                            <connections>
+                                                <action selector="handleLogout:" destination="0m5-hZ-87x" id="S3n-0T-lOx"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Instructor Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awr-hL-Xxd">
+                                <rect key="frame" x="33" y="65" width="134" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="sXN-AG-VaX"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="SwQ-lb-fQJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dSp-Jw-wlT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2625" y="913"/>
+            <point key="canvasLocation" x="4264.8000000000002" y="1078.1109445277361"/>
+        </scene>
+        <!--Student Home View Controller-->
+        <scene sceneID="8df-Kw-L06">
+            <objects>
+                <viewController id="cCT-DA-ZGD" customClass="StudentHomeViewController" customModule="Attendance_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kGV-xZ-LDa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cOh-KE-bKx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem id="o8a-yV-KwA">
+                                        <barButtonItem key="rightBarButtonItem" title="Logout" id="qAP-b4-ZsU">
+                                            <connections>
+                                                <action selector="handleLogout:" destination="cCT-DA-ZGD" id="Wb7-xl-j9a"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Student Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="km7-y6-bbd">
+                                <rect key="frame" x="16" y="59" width="111" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="b6l-TU-jDn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fE-Op-XM5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5140" y="1078.1109445277361"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="M6b-zJ-xCd">
@@ -543,6 +603,8 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="tx0-cZ-uig" kind="relationship" relationship="rootViewController" id="RCP-J9-Hz6"/>
+                        <segue destination="0m5-hZ-87x" kind="show" identifier="toInstructorScreen" id="fCq-hX-g3R"/>
+                        <segue destination="cCT-DA-ZGD" kind="show" identifier="toStudentScreen" id="pLY-cb-7XX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SbB-KR-5f5" userLabel="First Responder" sceneMemberID="firstResponder"/>

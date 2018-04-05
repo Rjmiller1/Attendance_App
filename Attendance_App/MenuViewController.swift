@@ -39,10 +39,20 @@ class MenuViewController: UIViewController {
         super.viewDidAppear(animated)
         
         if let user = Auth.auth().currentUser {
-            self.performSegue(withIdentifier: "toHomeScreen", sender: self)
+            // toHomeScreen is Segue name
+            /*
+             self.performSegue(withIdentifier: "toHomeScreen", sender: self)
+             */
+            
+            if(user.email?.contains("mail.wvu.edu"))!{
+                self.performSegue(withIdentifier: "toInstructorScreen", sender: self)
+            }
+            
+            if(user.email?.contains("mix.wvu.edu"))!{
+                self.performSegue(withIdentifier: "toStudentScreen", sender: self)
+            }
         }
     }
-    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         get {
             return .lightContent
