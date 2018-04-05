@@ -48,7 +48,7 @@
                                 </state>
                                 <connections>
                                     <action selector="handleLogin:" destination="0Hw-EF-rLz" eventType="touchUpInside" id="aiq-wb-gca"/>
-                                    <segue destination="Gzf-aY-Irw" kind="show" animates="NO" id="IBH-5j-ASq">
+                                    <segue destination="Gzf-aY-Irw" kind="show" identifier="toLoginScreen" animates="NO" id="IBH-5j-ASq">
                                         <nil key="action"/>
                                     </segue>
                                 </connections>
@@ -65,7 +65,7 @@
                                 </state>
                                 <connections>
                                     <action selector="handleSignUp:" destination="0Hw-EF-rLz" eventType="touchUpInside" id="ZDe-V6-EzQ"/>
-                                    <segue destination="wie-nZ-YWG" kind="show" animates="NO" id="Xve-p8-Ir4">
+                                    <segue destination="wie-nZ-YWG" kind="show" identifier="toSignUpScreen" animates="NO" id="Xve-p8-Ir4">
                                         <nil key="action"/>
                                     </segue>
                                 </connections>
