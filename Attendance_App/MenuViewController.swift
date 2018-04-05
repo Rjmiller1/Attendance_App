@@ -16,6 +16,14 @@ class MenuViewController: UIViewController {
     
     @IBOutlet weak var signupButton: UIButton!
     
+    @IBAction func handleLogin(_ target: UIButton){
+        self.performSegue(withIdentifier: "toLoginScreen", sender: self)
+    }
+    
+    @IBAction func handleSignUp(_ target: UIButton){
+        self.performSegue(withIdentifier: "toSignUpScreen", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

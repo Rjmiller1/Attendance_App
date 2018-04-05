@@ -47,6 +47,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="handleLogin:" destination="0Hw-EF-rLz" eventType="touchUpInside" id="aiq-wb-gca"/>
                                     <segue destination="Gzf-aY-Irw" kind="show" animates="NO" id="IBH-5j-ASq">
                                         <nil key="action"/>
                                     </segue>
@@ -63,6 +64,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="handleSignUp:" destination="0Hw-EF-rLz" eventType="touchUpInside" id="ZDe-V6-EzQ"/>
                                     <segue destination="wie-nZ-YWG" kind="show" animates="NO" id="Xve-p8-Ir4">
                                         <nil key="action"/>
                                     </segue>
