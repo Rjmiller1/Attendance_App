@@ -1,0 +1,291 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"locat",
+				"locationManager"
+			],
+			[
+				"auth",
+				"authorizedWhenInUse"
+			],
+			[
+				"test",
+				"test_numbers"
+			],
+			[
+				"cla",
+				"classified_point"
+			],
+			[
+				"ou",
+				"output_file"
+			],
+			[
+				"size",
+				"size"
+			],
+			[
+				"outpu",
+				"output_array"
+			],
+			[
+				"arra",
+				"array_points"
+			],
+			[
+				"inp",
+				"input_file"
+			],
+			[
+				"array",
+				"array_ptr"
+			],
+			[
+				"in",
+				"input_file"
+			],
+			[
+				"output_fil",
+				"output_filepath"
+			],
+			[
+				"output_fi",
+				"output_filepath"
+			],
+			[
+				"des",
+				"destination_filepath"
+			],
+			[
+				"source_f",
+				"source_file"
+			],
+			[
+				"fi",
+				"file_to_open"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"number",
+				"number_1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robertmiller/Documents/Attendance_App/Attendance_App/AppDelegate.swift",
+		"/Users/robertmiller/Documents/Attendance_App/Attendance_App/location_auth.m",
+		"/Users/robertmiller/Desktop/HelloWorldC/clargs.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/Vector.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/vector.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/HelloWorld.pl",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_3_tester.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_3.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_3.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/classify_points.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_2.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_2.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs310.cpp",
+		"/Users/robertmiller/Desktop/HelloWorldC/main_files.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/readingFiles.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/files.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_1.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/pointer_practice.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/bitwise.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/char_arrays.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/pointer_practice_2.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/pointsmain.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/point2d.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/point.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/bubble_sort.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/bubble_sort.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/TestSort.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/arguments.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/program.java",
+		"/Users/robertmiller/Desktop/HelloWorldC/DataStructures.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/practicefeb20.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/CopyString.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/SwapPointers.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/PointersExample2.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/PointersExample.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs35026.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs350Day3.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/CpeLab4.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cpe312.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/main.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/test.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/assignment_1.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs350Review.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/arrays.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs350Day4Ex.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs350Day4.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs350Day2.h",
+		"/Users/robertmiller/Desktop/HelloWorldC/cs350Day2.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/arithmetic.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/Practice.c",
+		"/Users/robertmiller/Desktop/HelloWorldC/HelloWorld2.h"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Attendance_App.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

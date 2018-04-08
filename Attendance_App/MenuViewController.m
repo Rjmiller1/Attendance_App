@@ -1,10 +1,12 @@
 //
-//  ViewController.swift
-//  FirebaseDemo
+//  MenuViewController.swift
+//  Attendance_App
 //
-//  Created by Robert Canton on 2017-09-13.
-//  Copyright © 2017 Robert Canton. All rights reserved.
+//  Created by Robert Miller on 3/24/18.
+//  Copyright © 2018 Robert Miller. All rights reserved.
 //
+
+
 import UIKit
 import Firebase
 
@@ -13,6 +15,14 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     
     @IBOutlet weak var signupButton: UIButton!
+    
+    @IBAction func handleLogin(_ target: UIButton){
+        self.performSegue(withIdentifier: "toLoginScreen", sender: self)
+    }
+    
+    @IBAction func handleSignUp(_ target: UIButton){
+        self.performSegue(withIdentifier: "toSignUpScreen", sender: self)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,25 +47,20 @@ class MenuViewController: UIViewController {
         super.viewDidAppear(animated)
         
         if let user = Auth.auth().currentUser {
-            self.performSegue(withIdentifier: "toHomeScreen", sender: self)
+            // toHomeScreen is Segue name
+            /*
+             self.performSegue(withIdentifier: "toHomeScreen", sender: self)
+             */
             
-            if (user.email?.contains("mail.wvu.edu"))!{
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "InstructorHomeViewController")
-                
-                self.present(vc!, animated: true, completion: nil)
-                
-                
+            if(user.email?.contains("mail.wvu.edu"))!{
+                self.performSegue(withIdentifier: "toInstructorScreen", sender: self)
             }
             
-            if (user.email?.contains("mix.wvu.edu"))!{
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "StudentHomeViewController")
-                
-                self.present(vc!, animated: true, completion: nil)
+            if(user.email?.contains("mix.wvu.edu"))!{
+                self.performSegue(withIdentifier: "toStudentScreen", sender: self)
             }
-            
         }
     }
-    
     override var preferredStatusBarStyle: UIStatusBarStyle {
         get {
             return .lightContent
@@ -63,4 +68,3 @@ class MenuViewController: UIViewController {
     }
     
 }
-
