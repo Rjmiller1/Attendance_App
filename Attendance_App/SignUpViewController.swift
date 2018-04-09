@@ -16,7 +16,9 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var dismissButton: UIButton!
-    
+   
+
+    var userSwitch:UISwitch!
     var continueButton:RoundedWhiteButton!
     var activityView:UIActivityIndicatorView!
     
@@ -24,6 +26,11 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         view.addVerticalGradientLayer(topColor: primaryColor, bottomColor: secondaryColor)
+    
+    
+        userSwitch = UISwitch(frame: CGRect(x: 200, y: 400, width: 100, height: 100))
+        view.addSubview(userSwitch)
+        
         
         continueButton = RoundedWhiteButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
         continueButton.setTitleColor(secondaryColor, for: .normal)
@@ -159,6 +166,8 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
         Auth.auth().createUser(withEmail: email, password: pass) { user, error in
             if error == nil && user != nil {
                 print("User created!")
+                
+                //Auth.auth().currentUser.
                 
                 let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
                 changeRequest?.displayName = username

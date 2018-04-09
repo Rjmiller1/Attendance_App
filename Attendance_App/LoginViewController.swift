@@ -148,6 +148,23 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
         
         Auth.auth().signIn(withEmail: email, password: pass) { user, error in
             if error == nil && user != nil {
+                
+                /*
+                if (user?.email?.contains("mail.wvu.edu"))!{
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "InstructorHomeViewController")
+                    
+                    self.present(vc!, animated: true, completion: nil)
+                    
+                }
+                
+                
+                if (user?.email?.contains("mix.wvu.edu"))!{
+                    let vc = self.storyboard?.instantiateViewController(withIdentifier: "StudentHomeViewController")
+                    
+                    self.present(vc!, animated: true, completion: nil)
+                }
+                */
+                
                 self.dismiss(animated: false, completion: nil)
             } else {
                 print("Error logging in: \(error!.localizedDescription)")

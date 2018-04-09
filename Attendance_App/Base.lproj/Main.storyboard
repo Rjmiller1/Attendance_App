@@ -76,7 +76,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="DF3-Ub-r8A" firstAttribute="leading" secondItem="M2P-0A-WHL" secondAttribute="leading" constant="24" id="3Df-Pe-dFi"/>
                             <constraint firstItem="cG9-g3-oLn" firstAttribute="top" secondItem="DF3-Ub-r8A" secondAttribute="bottom" constant="16" id="5ae-ls-lxm"/>
@@ -228,7 +228,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="dpD-rs-QKD" firstAttribute="leading" secondItem="Ql9-tN-f5h" secondAttribute="leading" id="46V-Me-zcF"/>
                             <constraint firstItem="y9W-KN-WFI" firstAttribute="leading" secondItem="ROV-j0-jtL" secondAttribute="leading" id="F9S-oX-3pD"/>
@@ -399,7 +399,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottomMargin" secondItem="7OK-fR-aKQ" secondAttribute="bottom" id="1za-Cp-wkj"/>
                             <constraint firstItem="5J0-tp-Mav" firstAttribute="height" secondItem="039-am-QbD" secondAttribute="height" constant="20" id="EpM-s2-WnF"/>
@@ -422,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TaG-Xx-sJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3540" y="509"/>
+            <point key="canvasLocation" x="3540" y="508.69565217391306"/>
         </scene>
         <!--Instructor Home View Controller-->
         <scene sceneID="zcq-Nc-e4l">

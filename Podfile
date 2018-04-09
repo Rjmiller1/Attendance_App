@@ -8,4 +8,5 @@ target 'Attendance_App' do
   # Pods for Attendance_App
 	pod 'Firebase/Core'
 	pod 'Firebase/Auth'
+	pod ‘Firebase/Database’
 end

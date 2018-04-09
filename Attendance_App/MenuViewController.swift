@@ -39,19 +39,7 @@ class MenuViewController: UIViewController {
         if let user = Auth.auth().currentUser {
             self.performSegue(withIdentifier: "toHomeScreen", sender: self)
             
-            if (user.email?.contains("mail.wvu.edu"))!{
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "InstructorHomeViewController")
-                
-                self.present(vc!, animated: true, completion: nil)
-                
-                
-            }
-            
-            if (user.email?.contains("mix.wvu.edu"))!{
-                let vc = self.storyboard?.instantiateViewController(withIdentifier: "StudentHomeViewController")
-                
-                self.present(vc!, animated: true, completion: nil)
-            }
+           
             
         }
     }
